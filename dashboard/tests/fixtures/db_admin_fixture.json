@@ -4,8 +4,8 @@
         "pk":1, 
         "fields":{
             "username": "admin",
-            "password": "admin",
-            "email": "pbkdf2_sha256$390000$9n7vcvPVQkf46NC1u3q2fv$/y3f2B7Mtybe2IPaA6YI/27pnBD6kxtPqYpAPXlMCCc=",
+            "password": "pbkdf2_sha256$390000$UyaiCt3KHvD3OpPa8D0XSD$wTwEjDRP2p+Gz2dZVSaij4T4sfHJ+m9KLCw0V+ykfPA=",
+            "email": "admin@admin.com",
             "is_superuser": true,
             "is_staff": true,
             "is_active": true
