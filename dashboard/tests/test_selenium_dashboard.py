@@ -7,7 +7,7 @@ from django.contrib.auth.models import User
 def test_create_admin_user(create_admin_user):
     assert create_admin_user.__str__() == "admin"
 '''
-@pytest.mark.selenium
+@pytest.mark.dbfixtures
 def test_dashboard_admin_login(live_server, db_fixture_setup, firefox_browser_instance):
 
         i = User.objects.get(id=1)
